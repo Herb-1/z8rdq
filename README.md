@@ -7,6 +7,12 @@ dns-server = system
 ipv6 = false
 update-url = https://raw.githubusercontent.com/iSteal-it/script/main/shadowrocket.configuration
 
+[Host]
+localhost = 127.0.0.1
+
+[URL Rewrite]
+^http://(www.)?g.cn https://www.google.com 302
+^http://(www.)?google.cn https://www.google.com 302
 
 
 [Rule]
